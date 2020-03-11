@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Needit log verbosity. Set to "error" by default. Options are:&#13;
+off : Do not generate any logs.&#13;
+error : Show only critical errors which may prevent the search from completing will be shown.&#13;
+warn : Show warning which indicates possible unexpected changes in behavior while searching, in addition to any errors.&#13;
+info : Show progress messages as the Code Search application searches for results. Also shows warnings and error messages.&#13;
+debug : Show information that may be useful while debugging the application, like the values of queries run. Also includes info, warn, and error messages.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.logging.verbosity</name>
+        <read_roles/>
+        <suffix>x_58872_needit.logging.verbosity</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-07 22:32:56</sys_created_on>
+        <sys_id>da30546b2f134010441dfcecf699b6b1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_58872_needit.logging.verbosity</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_da30546b2f134010441dfcecf699b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-07 22:38:49</sys_updated_on>
+        <type>string</type>
+        <value>debug</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=da30546b2f134010441dfcecf699b6b1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d2452fb8db94f70052cec597059619b9</instance_id>
+        <instance_name>dev75702</instance_name>
+        <name>sys_properties_da30546b2f134010441dfcecf699b6b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Needit log verbosity. Set to "error" by default. Options are:&#13;
+off : Do not generate any logs.&#13;
+error : Show only critical errors which may prevent the search from completing will be shown.&#13;
+warn : Show warning which indicates possible unexpected changes in behavior while searching, in addition to any errors.&#13;
+info : Show progress messages as the Code Search application searches for results. Also shows warnings and error messages.&#13;
+debug : Show information that may be useful while debugging the application, like the values of queries run. Also includes info, warn, and error messages.</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>x_58872_needit.logging.verbosity</name><read_roles/><suffix>x_58872_needit.logging.verbosity</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-07 22:32:56</sys_created_on><sys_id>da30546b2f134010441dfcecf699b6b1</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_58872_needit.logging.verbosity</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_da30546b2f134010441dfcecf699b6b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-07 22:38:49</sys_updated_on><type>string</type><value>debug</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=da30546b2f134010441dfcecf699b6b1"/></record_update>]]></payload>
+        <payload_hash>1968640449</payload_hash>
+        <record_name>x_58872_needit.logging.verbosity</record_name>
+        <reverted_from/>
+        <source>62c515872f130010441dfcecf699b6a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-07 22:38:50</sys_created_on>
+        <sys_id>e0c1d8ab2f134010441dfcecf699b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170b726ae0c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-07 22:38:50</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>e4c1d8abb31340109bf9334809669d56</update_guid>
+        <update_guid_history>e4c1d8abb31340109bf9334809669d56:1968640449,969118aba313401070b0023b958700c5:591204179,4531986b0f1340104873201d3bd3019b:1924208980,661150abbc1340107ddb44f7ffdf9c00:1329925740,aa90586beb134010424b1c31db2ce72f:1968640449,9a60142b99134010d8b4d11251bb6fba:1606444621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-07 22:39:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>6ceaaf200c8d4f52aa48e758739266a4</sys_id>
+        <sys_metadata>da30546b2f134010441dfcecf699b6b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.logging.verbosity</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_da30546b2f134010441dfcecf699b6b1</sys_update_name>
+        <sys_update_version display_value="sys_properties_da30546b2f134010441dfcecf699b6b1">e0c1d8ab2f134010441dfcecf699b657</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-07 22:39:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
